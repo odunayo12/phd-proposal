@@ -1,7 +1,7 @@
 \documentclass[a4paper,11pt]{scrartcl}
 
 \usepackage{graphicx}
-\usepackage[utf8]{inputenc} %-- pour utiliser des accents en français, ou autres
+\usepackage[utf8]{inputenc} 
 \usepackage{amsmath,amssymb,amsthm} 
 \usepackage[round]{natbib}
 \usepackage{url}
@@ -21,15 +21,17 @@
 \newcommand{\refsec}[1]{Section~\ref{#1}}
 
 \setcapindent{1em} %-- for captions of Figures
-\hbadness=10000 %-- set tolerance for underfull box
+\hbadness=10000 %-- set tolerance for under-full box
 \hfuzz=10000pt %-- set tolerance for overfull box
 
 \renewcommand{\algorithmicrequire}{\textbf{Input:}}
 \renewcommand{\algorithmicensure}{\textbf{Output:}}
 
 
-\title{4th Industrial Revolution: Hybrid Deep Learning Models for Financial Securities}
-\author{Odunayo Rotimi\\ \url{odun.rotimi@gmail.com}}
+\title{4th Industrial Revolution: 
+Hybrid Deep Learning Models for Financial Derivatives, 
+Cryptocurrency and Investor Sentiment Analysis}
+\author{Odunayo Rotimi (\url{odun.rotimi@gmail.com})}
 \date{\today}
 
 
@@ -49,9 +51,9 @@ portfolio allocation, asset pricing and derivatives market are among the major a
 focused on, developing models that can provide working solutions to the financial sector's challenges.
 \newline
 
-That not withstanding, Deep Learning (DL), a sub-field of machine learning is gaining more traction in both
-literature and the application because of the accuracy it affords over traditional ML models. With growing
-novelty in DL algorithms, consisting in multiple Artificial Neural Network layers, provides high level
+That not withstanding, Deep Learning (DL) - a sub-field of ML - is gaining more traction in both the
+literature and in application because of the accuracy it affords over traditional ML models. With growing
+novelty in the design of DL algorithms, consisting in multiple Artificial Neural Network layers, these models provide high level
 abstraction for data modelling. This ingenuity opens up a whole wide range of research opportunity that
 could help advance the cause of the 4th industrial revolution in two dimensions. Firstly, relative to
 transparency on the path of practitioners; and, secondly, to provide insights into the modelling techniques
@@ -75,9 +77,9 @@ On the other hand, it may be an argument in favor of the latter observation (i.e
 %
 \section{Research aims and objectives}
 \begin{enumerate}
-    \item The thesis aims to extend the novelty in developing mixed or hybrid Deep learning models that are viable for the prediction of derivatives. Method to be considered include the transformation of of financial data from 1-dimensional array to image-like 2-dimensional array in an effort to reduce associated dimensionality problems, combined with a parameterized version Neural Network (NN). Application of machine learning models to investment problems is well documented in the literature. \cite{ozbayoglu2020deep} is a rich resource for a comparative case study. The works of \cite{culkin2017machine, sezer2020financial} will constitute a starting point for transformation and model formulation respectively. \label{obj_1}
     \item This thesis shall also inquire into the possibility of transforming financial information into information-flow graphs combined with Natural Language Processing techniques to study the inter-relatedness of investors' perception about trade information and how they drive resultant investment decisions. We shall then delve into predicting the inter-relatedness of the influence of trading news and possible dependence investment decisions on key sources or influencers using the emergent  Graph Convolutional Networks (GCN), designed to capture relational information. Performance will be  measured against that of other binary classification ML algorithms.
-          Such transformation is well known in genetic modelling, communications and social networking. However, except for the experimental work of  \cite{weber2019anti} and application to stock trading (e.g. \cite{chen2018incorporating,wang2019alphastock}), there is but little known other instances where such transformation has been used in sentiment analysis. Such models, if carefully developed can help model investor behavior in an automation-driven industrial revolution. \label{obj_2}
+          Such transformation is well known in genetic modelling, communications and social networking. However, except for the experimental work of  \cite{weber2019anti} and application to stock trading (e.g. \cite{chen2018incorporating,wang2019alphastock}), there is but little known other instances where such transformation has been used in sentiment analysis. Such models, if carefully developed can help model investor behavior in an automation-driven industrial revolution. \label{obj_1}
+    \item The thesis aims to extend the novelty in developing mixed or hybrid Deep learning models that are viable for the prediction of derivatives. Method to be considered include the transformation of of financial data from 1-dimensional array to image-like 2-dimensional array in an effort to reduce associated dimensionality problems, combined with a parameterized version Neural Network (NN). Application of machine learning models to investment problems is well documented in the literature. \cite{ozbayoglu2020deep} is a rich resource for a comparative case study. The works of \cite{culkin2017machine, sezer2020financial} will constitute a starting point for transformation and model formulation respectively. \label{obj_2}
     \item Lastly, this research work extend the study of application of Generative Adversarial Network (GAN) to crypto-securities to contribute to the state of research. This aspect would detail a systematic enquiry comparative forecasting advantage the GAN may posses over other DL Models, building on the works of \cite{zola2020generative} and \cite{grilli2020generative}. \label{obj_3}
 \end{enumerate}
 
@@ -90,7 +92,7 @@ The focus of this research shall be rather quantitative and theoretical in natur
 %%%
 %
 \section{Timeline}
-The project is proposed to last a 2 and half-year period, split into 4 phases (see \reffig{fig:my_label}). The first 6-month phase will centre around review of the state of research and succeeded by another 6-month phase of data collection, analysis as well as validating of the existent ML models on the gathered data. This phase is targeted to culminate in a research paper worthy of publication in an internationally recognized research journal. Particularly, the third research objective is scheduled to have been fully addressed here.
+The project is proposed to last a 2 and half-year period, split into 4 phases (see \reffig{fig:my_label}). The first 6-month phase will center around review of the state of research and succeeded by another 6-month phase of data collection, analysis as well as validating of the existent ML models on the gathered data. This phase is targeted to culminate in a research paper worthy of publication in an internationally recognized research journal. Particularly, the third research objective is scheduled to have been fully addressed here.
 
 The third phase is scheduled to last one year. Here, time is intended to be invested in the bulk of theoretical model development, validation, and back-testing. Research objectives (\ref{obj_1}) and (\ref{obj_2}) shall be the focus of this stage. Deliverables include publication of research results in internationally recognized journal. The research will end with dissertation submission in phase 4.
 \begin{figure}[htb!]
@@ -101,12 +103,11 @@ The third phase is scheduled to last one year. Here, time is intended to be inve
 \end{figure}
 
 \section{Proposed Journals}
-Research findings and outcomes of this research work are proposed for publication in, but not limited to the following journals:
+The research findings and outcomes of this research work are proposed for publication in, but not limited to the following journals:
 \begin{enumerate}
-    \item Journal of Statistical Software
-    \item Journal of Financial and Quantitative Analysis
-    \item Review of Development Finance
-    \item Applied and Computational Mathematics
+    \item Generative Adversarial Network (GAN) for Cryptocurrency | Journal of Statistical Software
+    \item Hybrid Deep Learning Model for Financial Derivatives | Journal of Financial and Quantitative Analysis
+    \item Graph Convolutional Networks (GCN) for Investor Sentiment Analysis | Applied and Computational Mathematics
 \end{enumerate}
 
 \bibliographystyle{abbrvnat}
